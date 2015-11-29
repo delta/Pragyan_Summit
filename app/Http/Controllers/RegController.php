@@ -25,6 +25,7 @@ class RegController extends Controller
         'name'          => 'required|min:3|max:20',
         'email'         => 'required|email|unique:registrants',
         'sop'           => 'required|max:2000',
+        'type'           => 'required|in:Student,Corporate',
         'phone'         => 'required|integer|digits_between:10,10',
         'g-recaptcha-response' => 'required|recaptcha',
         ]);
@@ -41,6 +42,7 @@ class RegController extends Controller
         $reg->phone = $request->get('phone');
         $reg->email = $request->get('email');
         $reg->sop = $request->get('sop');
+        $reg->type = $request->get('type');
         $reg->save();
 
         echo("true");

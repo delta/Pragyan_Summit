@@ -349,6 +349,13 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                         </div>
                         <div class="col-md-12">
                             <label></label>
+                            <select name="type" class="form-control">
+                              <option value="Student" selected>Student</option>
+                              <option value="Corporate">Corporate</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <label></label>
                             <textarea name="sop" maxlength="2000" class="form-control" rows="9" placeholder="Your statement of purpose here.." required></textarea>
                         </div>
                         <br>
