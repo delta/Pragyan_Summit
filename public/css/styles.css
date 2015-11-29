@@ -14,9 +14,20 @@ body {
     height: 100%;
 }
 
-#first {
-    background-image: -webkit-radial-gradient(center center,circle cover,#18071d,#000)!important;
-    background-image: -moz-radial-gradient(center center,circle cover,#18071d,#000)!important;
+
+
+@media only screen and (max-device-width: 480px) {
+    #first {
+        background-image: -webkit-radial-gradient(center center,circle cover,#18071d,#000)!important;
+        background-image: -moz-radial-gradient(center center,circle cover,#18071d,#000)!important;
+    }
+    
+}  
+@media only screen and (min-device-width: 480px) {
+    #headertext
+    {
+        display:none !important; 
+    }
 }
 
 body {

@@ -43,6 +43,9 @@
                         <a class="page-scroll" href="#four">Schedule</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#venue">Venue</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#last">Register</a>
                     </li>
                 </ul>
@@ -55,10 +58,10 @@
             </div>
         </div>
     </nav>
-    <!-- <header id="first" style="background-image:url('{{asset('/images/bg1.jpg')}}')"> -->
-    <header id="first" style="">
+    <header id="first" style="background-image:url('{{asset('/images/bg1.jpg')}}')">
+    <!-- <header id="first" style=""> -->
         <div class="header-content">
-            <div class="inner">
+            <div class="inner" id="headertext">
                 <center>
                 <h4>
                     <img src="{{asset('/images/pragyanlogo.png')}}" class="img-responsive">
@@ -71,7 +74,7 @@
         </div>
     </header>
     
-    <section class="bg-primary" id="one">
+    <section class="bg-primary" id="one" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
@@ -322,7 +325,27 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
             </div>
         </div>
     </aside>
+    <section id="venue">
+        <div class="container">
+            <center><h3>Hilton Chennai</h3></center>
+            <br>
 
+            <div class="row">
+                <!-- <div class="col-md-4 col-sm-12"><img src="{{asset('/images/hilton/1.jpg')}}" class="img-responsive"></div> -->
+                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></div>
+                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></div>
+            </div>
+            <br>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                <iframe style="max-width:400px;" height="400" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVVf9rz5nUjoRrVsT-8U6c3I&key=AIzaSyBIqg_lj6tAX0mCQlPLTUmg35MCthrgrS8"></iframe> 
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section id="last">
         <div class="container">
@@ -393,7 +416,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                     </p>
                     <p>
                         <br/>
-                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+                        <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close</button>
                     </p>
                 </div>
             </div>
