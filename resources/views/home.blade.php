@@ -297,7 +297,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
     </section>
 
 
-    <aside class="bg-dark">
+    <aside class="bg-dark" style="background-color:white">
         <div class="container text-center">
             <div class="call-to-action">
             <h2 class="text-primary">Our Sponsors</h2>
@@ -310,14 +310,14 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                     <div class="row">
                         <!-- <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6> -->
                         <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
-                            <img src="{{ asset('/images/sp1.jpg') }}" class="img-responsive">    
+                            <img src="{{ asset('/images/sp1.png') }}" class="img-responsive">    
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
                             <img src="{{ asset('/images/sp2.png') }}" class="img-responsive">    
                             <!-- <i class="icon-lg ion-social-sass" title="sass"></i> -->
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
-                            <img src="{{ asset('/images/sp3.jpg') }}" class="img-responsive" style="width:100%">    
+                            <img src="{{ asset('/images/sp3.png') }}" class="img-responsive" style="width:100%">    
                             <!-- <i class="icon-lg ion-social-javascript-outline" title="javascript"></i> -->
                         </div>
                     </div>
