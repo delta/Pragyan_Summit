@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('/css/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/ionicons.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/styles.css') }}" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script>var base_url = "{{ action('ViewController@index') }}";</script>
     <meta name="_token" content="{{ csrf_token() }}"/>
 
@@ -24,16 +25,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#first"><i class="ion-ios-analytics-outline"></i> Pragyan Summit</a>
+                <a class="navbar-brand page-scroll" href="#first" style="overflow:none">
+                Pragyan Summit</a>
             </div>
             <div class="navbar-collapse collapse" id="bs-navbar">
                 <ul class="nav navbar-nav">
                     <li>
                         <a class="page-scroll" href="#one">Intro</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#two">Highlights</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#three">Speakers</a>
                     </li>
@@ -53,13 +55,18 @@
             </div>
         </div>
     </nav>
-    <header id="first" style="background-image:url('{{asset('/images/bg1.jpg')}}')">
+    <!-- <header id="first" style="background-image:url('{{asset('/images/bg1.jpg')}}')"> -->
+    <header id="first" style="">
         <div class="header-content">
-            <div class="inner" style="color:yellow;">
-                <h1 class="cursive">Pragyan Youth Business Summit 2016</h1>
-                <h4>A free landing page theme with video background</h4>
+            <div class="inner">
+                <center>
+                <h4>
+                    <img src="{{asset('/images/pragyanlogo.png')}}" class="img-responsive">
+                </h4>
+                <h1 style="font-family:'Lato';">Pragyan Youth Business Summit 2016</h1>
                 <hr>
                 <a href="#one" class="btn btn-primary btn-xl page-scroll">Learn More</a>
+                </center>
             </div>
         </div>
     </header>
@@ -80,7 +87,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
             </div>
         </div>
     </section>
-    <section id="two">
+    <!-- <section id="two">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -114,7 +121,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section id="three" class="no-padding">
         <div class="container-fluid">
             <div class="row no-gutter">
@@ -125,7 +132,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 Avid blogger , anchor ,author of the best seller “The Connected Age” and a recipient of the CNBC Asia’s “India’s Business Leader of the Year” are just a few of the  many things that makes him stand out among the rest of them. A multifaceted personality, Sudhakar Ram is the Chairman, Managing Director and Chief Executive Officer of the Global software phenomenon “Mastek”. He is an alumnus of the prestigious IIM-Calcutta and Loyola College, Chennai. “Mastek” was the brainchild of Sudhakar Ram and three other MBA Graduates from IIM Ahmedabad. He is among the first ones to prove why venturing into entrepreneurship is the most sensible and rewarding investment ever made. </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1430916273432-273c2db881a0%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3Df047e8284d2fdc1df0fd57a5d294614d">
-                        <img src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1430916273432-273c2db881a0%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3Df047e8284d2fdc1df0fd57a5d294614d" class="img-responsive" alt="Image 1">
+                        <img src="{{asset('/images/speakers/sudhakarram.jpg')}}" class="img-responsive" alt="Image 1">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -144,7 +151,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                         </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/getrefe/regular/tumblr_nqune4OGHl1slhhf0o1_1280.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/getrefe/regular/tumblr_nqune4OGHl1slhhf0o1_1280.jpg" class="img-responsive" alt="Image 2">
+                        <img src="{{asset('/images/speakers/rajeevgupta.jpg')}}" class="img-responsive" alt="Image 2">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -164,7 +171,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             Meet Anand Subramanian , the Senior Director of Marketing Communications and Spokesperson of OLA Cabs, India’s smartest and largest cab network. Being an integral part of many successful tech startups like ‘Cocubes.com’, ‘Future Vista view Edutech Pvt Ltd’ and many more, has helped him gain immense experience as a marketing and communication leader and has made him the one stop solution provider at Ola Cabs . He has been a torchbearer in the brand building of startups in India. Stay tuned to hear him share Ola’s take on “Make in India”  campaign , discuss the necessity of environmental policies to be adopted by startups,reveal Ola’s future plans and much more. </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1433959352364-9314c5b6eb0b%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3D3b9bc6caa190332e91472b6828a120a4">
-                        <img src="//splashbase.s3.amazonaws.com/unsplash/regular/photo-1433959352364-9314c5b6eb0b%3Fq%3D75%26fm%3Djpg%26w%3D1080%26fit%3Dmax%26s%3D3b9bc6caa190332e91472b6828a120a4" class="img-responsive" alt="Image 3">
+                        <img src="{{asset('/images/speakers/anandsubramanian.jpg')}}"class="img-responsive" alt="Image 3">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -182,7 +189,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             A man who wears many hats, Dheeraj Sinha leads the strategic planning function for Grey (WPP Group) and is also the author of two highly acclaimed books – ‘Consumer India – Inside the Indian Mind and Wallet’, and ‘India Reloaded – Inside the Resurgent Indian Consumer Market’. A man with years of experience, he has worked for huge brands and companies such as Emirates, Colgate, Reliance Mobile, MasterCard, and many more. The many accolades he has to his name include the Jay Chiat Planning Award, the Asian Marketing Effectiveness Award and the Yahoo Big Idea Chair. He is also a three time recipient of the prestigious Atticus Awards, and was named in CampaignAsia’s top 40 under 40 list for 2014 for advertising and marketing. Hear what he has to say on the ‘Make In India’ campaign at Pragyan’s Youth Business Summit 2016. </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-moto-drawing-illusion-nabeel-1440x960.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-moto-drawing-illusion-nabeel-1440x960.jpg" class="img-responsive" alt="Image 4">
+                        <img src="{{asset('/images/speakers/dheerajsinha.jpg')}}" class="img-responsive" alt="Image 4">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -200,7 +207,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             Appointed in the year 2013 by Indian automobile giant - Ashok Leyland - as their Corporate Communications Head, Mr. Alok Saraogi added the position to a long list of continuously growing achievements and accomplishments. Mr.Saraogi brings with him over 20 years of experience spanning FMCG, Services and Advertising,  Automobile, Retail, Aviation, Internet Services and Communication Industries. Apart from this he was also the Global Brand Com Head of Jet Airways and the Vice President of FutureBrands Ltd. He has also been nominated as Marketer of the Year and recognized by the CMO Council as a member of the 50 Most Talented Brand Leaders in India. He is a known speaker at seminars and conferences across the country on subjects ranging from consumer behavior, marketing insights to the digital space. </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg">
-                        <img src="//splashbase.s3.amazonaws.com/lifeofpix/regular/Life-of-Pix-free-stock-photos-new-york-crosswalk-nabeel-1440x960.jpg" class="img-responsive" alt="Image 5">
+                        <img src="{{asset('/images/speakers/aloksaraoji.jpg')}}" class="img-responsive" alt="Image 5">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -231,7 +238,9 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
                 <h2 class="text-center text-primary">Schedule</h2>
                 <hr>
-                <div class="media wow fadeInRight">
+
+                <center><br><br><br><h3> Schedule will be released soon!</h3></center>
+                <!-- <div class="media wow fadeInRight">
                     <h3>Simple</h3>
                     <div class="media-body media-middle">
                         <p>What could be easier? Get started fast with this landing page starter theme.</p>
@@ -279,10 +288,42 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                     <div class="media-right">
                         <i class="icon-lg ion-ios-flask-outline"></i>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
+
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+            <h2 class="text-primary">Our Sponsors</h2>
+            </div>
+            <br>
+            <hr/>
+            <br>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <div class="row">
+                        <!-- <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6> -->
+                        <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
+                            <img src="{{ asset('/images/sp1.jpg') }}" class="img-responsive">    
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
+                            <img src="{{ asset('/images/sp2.png') }}" class="img-responsive">    
+                            <!-- <i class="icon-lg ion-social-sass" title="sass"></i> -->
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
+                            <img src="{{ asset('/images/sp3.jpg') }}" class="img-responsive" style="width:100%">    
+                            <!-- <i class="icon-lg ion-social-javascript-outline" title="javascript"></i> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
     <section id="last">
         <div class="container">
             <div class="row">

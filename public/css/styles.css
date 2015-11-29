@@ -14,6 +14,11 @@ body {
     height: 100%;
 }
 
+#first {
+    background-image: -webkit-radial-gradient(center center,circle cover,#18071d,#000)!important;
+    background-image: -moz-radial-gradient(center center,circle cover,#18071d,#000)!important;
+}
+
 body {
     font-family: 'Questrial','Helvetica Neue',Arial,sans-serif;
     /*background-color: #282828;*/
