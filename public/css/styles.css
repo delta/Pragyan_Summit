@@ -21,12 +21,19 @@ body {
         background-image: -webkit-radial-gradient(center center,circle cover,#18071d,#000)!important;
         background-image: -moz-radial-gradient(center center,circle cover,#18071d,#000)!important;
     }
-    
+    #medlogo
+    {
+        display:none !important;
+    }
 }  
 @media only screen and (min-device-width: 480px) {
     #headertext
     {
         display:none !important; 
+    }
+    iframe
+    {
+        height:355px;
     }
 }
 

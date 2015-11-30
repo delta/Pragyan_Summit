@@ -11,6 +11,9 @@ $(document).ready(function(){
 		arrows: false, 
 		nav: false, 
 		delay: 4000 });
+
+        var height = $("#hiltonimg").css("height");
+        //$("iframe").css("height",$("#hiltonimg").css("height"));
 });
 
 function showSpeakerDetails(name,about)
