@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('/css/animate.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/ionicons.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('/css/styles.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/css/unslider.css') }}" />
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <script>var base_url = "{{ action('ViewController@index') }}";</script>
     <meta name="_token" content="{{ csrf_token() }}"/>
@@ -140,6 +141,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                    <h3> Sudhakar Ram</h3>
+                                   <h4>CEO and MD of Mastek</h4>
                                     <!-- <i class="icon-lg ion-ios-search"></i> -->
                                 </div>
                             </div>
@@ -159,6 +161,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                     <h3>Rajiv Gupta</h3>
+                                    <h4>Secretary, Youth Affairs, Govt. of India</h4>
                                     <!-- <i class="icon-lg ion-ios-search"></i> -->
                                 </div>
                             </div>
@@ -179,6 +182,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                     <h3>Anand Subramanian</h3>
+                                    <h4>Director of Marketing Communication, Ola Cabs</h4>
                                     <!-- <i class="icon-lg ion-ios-search"></i> -->
                                 </div>
                             </div>
@@ -197,6 +201,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                     <h3>Dheeraj Sinha</h3>
+                                    <h4> Chief Strategy Officer, GREY<br>author, Consumer India-Inside the Indian mind and wallet</h4>
                                     <!-- <i class="icon-lg ion-ios-search">Thala</i> -->
                                 </div>
                             </div>
@@ -215,6 +220,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                     <h3>Alok Sarogi</h3>
+                                    <h4>Head of Brand and Communications, Ashok Leyland</h4>
                                     <!-- <i class="icon-lg ion-ios-search">thambi</i> -->
                                 </div>
                             </div>
@@ -228,6 +234,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                             <div class="gallery-box-content">
                                 <div>
                                     <i class="icon-lg ion-ios-search"></i>
+                                    <h4></h4>
                                 </div>
                             </div>
                         </div>
@@ -331,20 +338,31 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
             <br>
 
             <div class="row">
-                <!-- <div class="col-md-4 col-sm-12"><img src="{{asset('/images/hilton/1.jpg')}}" class="img-responsive"></div> -->
-                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></div>
-                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></div>
-            </div>
-            <br>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-                <iframe style="max-width:400px;" height="400" frameborder="0" style="border:0"
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVVf9rz5nUjoRrVsT-8U6c3I&key=AIzaSyBIqg_lj6tAX0mCQlPLTUmg35MCthrgrS8"></iframe> 
+            
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <div id="my-slider">
+                    <ul>
+                        <li><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></li>
+                        <li><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></li>
+                    </ul>
                 </div>
             </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <iframe class="img-responsive" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVVf9rz5nUjoRrVsT-8U6c3I&key=AIzaSyBIqg_lj6tAX0mCQlPLTUmg35MCthrgrS8"></iframe> 
+                </div>
+                <!-- <div class="col-md-4 col-sm-12"><img src="{{asset('/images/hilton/1.jpg')}}" class="img-responsive"></div> -->
+                <!-- 
+                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></div>
+                <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></div>
+                 -->
+            </div>
         </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                </div>
+            </div>
+        </div> -->
     </section>
 
     <section id="last">
@@ -424,6 +442,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
     </div>
     <!--scripts loaded here from cdn for performance -->
     <script src="{{ asset('/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('/js/unslider.min.js') }}"></script>
     <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('/js/jquery.easing.min.js') }}"></script>
     <script src="{{ asset('/js/wow.js') }}"></script>

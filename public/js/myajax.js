@@ -4,6 +4,13 @@ $(document).ready(function(){
 		// alert(this);
 		showSpeakerDetails( $(".details > .name",this).html(),$(".details > .about",this).html() );
 	})
+
+
+	$("#my-slider").unslider({ 
+		autoplay: true, 
+		arrows: false, 
+		nav: false, 
+		delay: 4000 });
 });
 
 function showSpeakerDetails(name,about)
