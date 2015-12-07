@@ -172,9 +172,9 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
 
                 <div class="col-lg-4 col-sm-6 speaker">
                     <div class="details" style="display:none">
-                        <div class="name">Rajiv Gupta</div>
+                        <div class="name">Rajeev Gupta</div>
                         <div class="about">
-                            Creating his mark as an assistant collector in the year 1981 on a small time scale, Shri Rajiv Gupta slowly escalated the ranks of various organizations from becoming the secretary of various cadres to becoming a commissioner for a private cadre in Agra, Gorakhpur and Uttar Pradesh. He then proceeded to become the Managing Director of the Agricultural Co-Op of India, taking a seat at the Ministry of Youth Affairs and Sports as the Secretary. Within a span of 32 years, Shri Rajiv Gupta has become well known in the industry for his role in various private cadres to agriculture, transport and even defense on a national scale. He has also received training from various institutes such as the Uttarakhand Academy of Administration, the National Informatics Centre, HUDCO and the Indian Institute of Management, Bangalore.
+                            Creating his mark as an assistant collector in the year 1981 on a small time scale, Shri Rajeev Gupta slowly escalated the ranks of various organizations from becoming the secretary of various cadres to becoming a commissioner for a private cadre in Agra, Gorakhpur and Uttar Pradesh. He then proceeded to become the Managing Director of the Agricultural Co-Op of India, taking a seat at the Ministry of Youth Affairs and Sports as the Secretary. Within a span of 32 years, Shri Rajeev Gupta has become well known in the industry for his role in various private cadres to agriculture, transport and even defense on a national scale. He has also received training from various institutes such as the Uttarakhand Academy of Administration, the National Informatics Centre, HUDCO and the Indian Institute of Management, Bangalore.
                         </div>
                     </div>
                     <a href="#galleryModal" class="gallery-box" data-toggle="modal" >
@@ -182,7 +182,7 @@ Avid blogger , anchor ,author of the best seller “The Connected Age” and a r
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
-                                    <h3>Rajiv Gupta</h3>
+                                    <h3>Rajeev Gupta</h3>
                                     <h4>Secretary, Youth Affairs, Govt. of India</h4>
                                     <!-- <i class="icon-lg ion-ios-search"></i> -->
                                 </div>

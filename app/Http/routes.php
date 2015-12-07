@@ -13,3 +13,8 @@
 
 Route::get('/','ViewController@index');
 Route::post('/register','RegController@create');
+Route::get('login','AdminController@login');
+Route::post('login','AdminController@check_login');
+Route::group(['middleware' => 'AdminAuth'], function () {
+	Route::get('/admin','AdminController@view');
+});
