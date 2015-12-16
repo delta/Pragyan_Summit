@@ -315,57 +315,103 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
 					<h2 class="text-center text-primary">Schedule</h2>
 					<hr>
+				</div>
 
-					<center><br><br><br><h3> Schedule will be released soon!</h3></center>
-					<!-- <div class="media wow fadeInRight">
-					     <h3>Simple</h3>
-					     <div class="media-body media-middle">
-					     <p>What could be easier? Get started fast with this landing page starter theme.</p>
-					     </div>
-					     <div class="media-right">
-					     <i class="icon-lg ion-ios-bolt-outline"></i>
-					     </div>
-					     </div>
-					     <hr>
-					     <div class="media wow fadeIn">
-					     <h3>Free</h3>
-					     <div class="media-left">
-					     <a href="#alertModal" data-toggle="modal" data-target="#alertModal"><i class="icon-lg ion-ios-cloud-download-outline"></i></a>
-					     </div>
-					     <div class="media-body media-middle">
-					     <p>Yes, please. Grab it for yourself, and make something awesome with this.</p>
-					     </div>
-					     </div>
-					     <hr>
-					     <div class="media wow fadeInRight">
-					     <h3>Unique</h3>
-					     <div class="media-body media-middle">
-					     <p>Because you don't want your Bootstrap site, to look like a Bootstrap site.</p>
-					     </div>
-					     <div class="media-right">
-					     <i class="icon-lg ion-ios-snowy"></i>
-					     </div>
-					     </div>
-					     <hr>
-					     <div class="media wow fadeIn">
-					     <h3>Popular</h3>
-					     <div class="media-left">
-					     <i class="icon-lg ion-ios-heart-outline"></i>
-					     </div>
-					     <div class="media-body media-middle">
-					     <p>There's good reason why Bootstrap is the most used frontend framework in the world.</p>
-					     </div>
-					     </div>
-					     <hr>
-					     <div class="media wow fadeInRight">
-					     <h3>Tested</h3>
-					     <div class="media-body media-middle">
-					     <p>Bootstrap is matured and well-tested. It's a stable codebase that provides consistency.</p>
-					     </div>
-					     <div class="media-right">
-					     <i class="icon-lg ion-ios-flask-outline"></i>
-					     </div>
-					     </div> -->
+				<style type="text/css">
+					@media screen and (min-width: 992px) {
+						.schedule-text{
+							float:left !important;
+						}
+						.schedule-badge{
+							float:right !important;
+						}
+					}
+				</style>
+	
+
+				<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12" style="text-align:center">
+						<div class="media wow fadeInRight">
+							
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">09:30 AM - 10:00 AM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Opening Remarks</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:00 AM - 10:40 AM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 1</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:40 AM - 11:00 AM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Break with refreshments</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:00 AM - 11:40 AM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 2</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:40 AM - 12:20 PM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 3</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">12:20 PM - 02:00 PM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Networking Lunch</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">02:00 PM - 03:30 PM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Panel Discussion</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">03:30 PM - 04:10 PM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 4</span>
+									</div>
+								</div>
+								<br>
+								<div class="row">
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">04:15 PM - 05:00 PM</span>
+									</div>
+									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
+										<span class="schedule-text" style="font-size:1em;">Valediction</span>
+									</div>
+								</div>
 				</div>
 			</div>
 		</section>
@@ -493,52 +539,80 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				</div>
 			</div>
 			<div class="container">
+			
+			<style>
+				
+				@media screen and (min-width: 480px) {
+				
+					table.contact-table td{
+						padding: 5px;
+					}
+
+				}
+				@media screen and (max-width: 480px) {
+					
+					table.contact-table td{
+						padding: 2px;
+					}					
+
+					td.long-email{
+						color:#D9411E;
+						font-size: 0.75em;
+						/*display: none!important;*/
+					}
+					
+					td.email {
+
+						color:#D9411E;
+					}
+				}
+			</style>
+			
 				<div class="row">
-					<div class="col-lg-4 col-md-4 text-center">
-						<div class="feature">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+						<div class="feature" style="width:100%;">
 							<i class="icon-lg ion-ios-book-outline wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"></i>
 							<h3>Students</h3>
-							<style>td{padding: 5px;}</style>
-							<table>
+							<table class="contact-table">
 								<tr>
 									<td>Priyanka</td>
-									<td>saipriyanka@pragyan.org</td>
+									<td class="long-email">saipriyanka@pragyan.org</td>
 									<td>+91&nbsp;97913&nbsp;95753</td>
 								</tr>
 								<tr>
 									<td>Arjun</td>
-									<td>arjunbala@pragyan.org</td>
+									<td class="email">arjunbala@pragyan.org</td>
 									<td>+91&nbsp;90031&nbsp;87061</td>
 								</tr>
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 text-center">
-						<div class="feature">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+						<div class="feature" style="width:100%;">
 							<i class="icon-lg ion-briefcase wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"></i>
 							<h3>Corporates</h3>
-							<table>
+							<table class="contact-table">
 								<tr>
 									<td>Shrimithran</td>
-									<td>shrimithranr@pragyan.org</td>
+									<td class="long-email">shrimithranr@pragyan.org</td>
 									<td>+91&nbsp;91766&nbsp;53503</td>
 								</tr>
 								<tr>
 									<td>Naman</td>
-									<td>naman@pragyan.org</td>
+									<td class="email">naman@pragyan.org</td>
 									<td>+91&nbsp;98845&nbsp;79108</td>
 								</tr>
 							</table>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 text-center">
-						<div class="feature">
+					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+						<div class="feature" style="width:100%;">
 							<i class="icon-lg ion-ios-paper-outline wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"></i>
 							<h3>Media</h3>
-							<table>
+							<table class="contact-table">
 								<tr>
 									<td>Bharat</td>
-									<td>saibharat@pragyan.org</td>
+									<td class="long-email">saibharat@pragyan.org</td>
 									<td>+91&nbsp;98409&nbsp;49888</td>
 								</tr>
 							</table>
@@ -553,9 +627,9 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					<div class="col-xs-12 col-sm-3 text-left">
 						<h4>Follow</h4>
 						<ul class="list-inline">
-							<li><a rel="nofollow" href="https://twitter.com/nitt_pragyan" title="Twitter"><i class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;</li>
-							<li><a rel="nofollow" href="https://www.facebook.com/pragyan.nitt/" title="Facebook"><i class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>
-							<li><a rel="nofollow" href="https://www.pragyan.org/blog/" title="Blog"><i class="icon-lg ion-social-rss-outline"></i></a></li>
+							<li><a rel="nofollow" href="https://twitter.com/nitt_pragyan" title="Twitter"><i class="icon-lg ion-social-twitter-outline" style="font-size:25px"></i></a>&nbsp;</li>
+							<li><a rel="nofollow" href="https://www.facebook.com/pragyan.nitt/" title="Facebook"><i class="icon-lg ion-social-facebook-outline" style="font-size:25px"></i></a>&nbsp;</li>
+							<li><a rel="nofollow" href="https://www.pragyan.org/blog/" title="Blog"><i class="icon-lg ion-social-rss-outline" style="font-size:25px"></i></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-1 text-center">
