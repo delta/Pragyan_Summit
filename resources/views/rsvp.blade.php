@@ -69,6 +69,11 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 							<label class="control-label">Field 2</label>
 							<input type="text" class="form-control" value="" maxlength="40" id="f2" name="f2">
 						</div>
+						
+						<div class="form-group">
+							<label class="control-label">Email address</label>
+							<input type="email" class="form-control" value="" maxlength="40" id="email" name="email">
+						</div>
 
 						<div class="form-group">
 							<label class="control-label">Mobile Number</label>

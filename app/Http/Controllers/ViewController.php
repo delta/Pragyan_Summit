@@ -58,6 +58,7 @@ class ViewController extends Controller
             'id' => 'required|max:40',
             'f1' => 'required|max:40',
             'f2' => 'required|max:40',
+            'email' => 'required|email',
             'phone' => 'required|integer|digits_between:10,10',
         ]);
 
@@ -86,6 +87,7 @@ class ViewController extends Controller
 
         $f1 = $request->get('f1');
         $f2 = $request->get('f2');
+        $email = $request->get('email');
         $phone = $request->get('phone');
 
         $newResponse = new CollegeRSVP;
@@ -94,6 +96,7 @@ class ViewController extends Controller
         $newResponse->field1 = $f1;
         $newResponse->field2 = $f2;
         $newResponse->phone = $phone;
+        $newResponse->email = $email;
 
         $newResponse->save();
 

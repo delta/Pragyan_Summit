@@ -17,6 +17,7 @@ class CreateRsvpTable extends Migration
             $table->integer('id')->unique();
             $table->string('field1', 40);
             $table->string('field2', 40);
+            $table->string('email', 40);
             $table->string('phone', 40);
         });
     }
