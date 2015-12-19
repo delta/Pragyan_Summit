@@ -269,6 +269,15 @@
 Thank you for your interest in the Pragyan Youth Business Summit. The Summit is the perfect opportunity for youth leaders and students to network and interact with pioneers of various fields.<br />
 Your request for an invitation has been registered and we will be in touch with you if you gain an invite to this first-of-its-kind youth summit. <br /><br />
 
+<br>
+	Please follow this link to register
+	<br>
+	<center><u>
+		<a href="{{$reglink}}">Register {{$name}}</a>
+	</u></center>
+<br>
+
+
 Keep Leading!<br /><br />
 
 Team Pragyan.

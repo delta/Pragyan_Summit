@@ -15,7 +15,8 @@ Route::get('/','ViewController@index');
 Route::post('/register','RegController@create');
 Route::get('login','AdminController@login');
 Route::post('login','AdminController@check_login');
-
+Route::get('/rsvp','ViewController@rsvp');
+Route::post('/submitrsvp','ViewController@submitrsvp');
 Route::group(['middleware' => 'AdminAuth'], function () {
 	Route::get('/admin','AdminController@view');
 	Route::get('/admin/colleges','AdminController@show_colleges');

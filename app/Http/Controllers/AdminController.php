@@ -54,7 +54,10 @@ class AdminController extends Controller
 
 		$coll = College::where('id','=',$id)->first();
 
-		Mail::send('collegemail', ['name' => $coll->name], function ($m) use ($coll) {
+		$hash = sha1($coll->name."Pragyan Summit Rocks".$coll->email);
+		$reglink = action('ViewController@index')."/rsvp?id=".$id."&hash=".$hash;
+
+		Mail::send('collegemail', ['name' => $coll->name,'reglink'=>$reglink], function ($m) use ($coll) {
 			$m->from('noreply@pragyan.org', 'Team Pragyan');
 			$m->to($coll->email, $coll->name)->subject('Pragyan Youth Business Summit');
 		});
