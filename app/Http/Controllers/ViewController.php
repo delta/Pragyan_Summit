@@ -63,7 +63,8 @@ class ViewController extends Controller
         ]);
 
         if ($validator->fails()) {
-            abort(403, 'Invalid Link');
+            $msg = "Invalid Data";
+            return view('msgpage',compact('msg'));
         }
 
 
@@ -100,7 +101,8 @@ class ViewController extends Controller
 
         $newResponse->save();
 
-        echo "Successfully Registered";
+        $msg = "Successfully Registered";
+        return view('msgpage',compact('msg'));
     }    
 
 }

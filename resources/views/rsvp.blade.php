@@ -62,12 +62,12 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 
 						<div class="form-group">
 							<label class="control-label">Field 1</label>
-							<input type="text" class="form-control" value="" maxlength="40" id="f1" name="f1">
+							<input type="text" class="form-control" value="" maxlength="40" id="f1" name="f1" required>
 						</div>
 
 						<div class="form-group">
 							<label class="control-label">Field 2</label>
-							<input type="text" class="form-control" value="" maxlength="40" id="f2" name="f2">
+							<input type="text" class="form-control" value="" maxlength="40" id="f2" name="f2" required>
 						</div>
 						
 						<div class="form-group">
