@@ -799,7 +799,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                             <tr>
                                                                                 <td valign="top" class="textContent">
                                                                                     
-                                                                                    <div style="text-align:justify;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;"><p><b>Because of the indisputable reputation of your institution, we would be honored if the bright minds from your institution participate in the Summit. Two students from (College Name goes here) are welcome to attend the Summit</b>. 
+                                                                                    <div style="text-align:justify;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;margin-top:3px;color:#5F5F5F;line-height:135%;"><p><b>Because of the indisputable reputation of your institution, we would be honored if the bright minds from your institution participate in the Summit. Two students from {{$name}} are welcome to attend the Summit</b>. 
 
                                                                                                                                                                                                                                         <br/><br/>We kindly request you to respond to our invitation by clicking the button below.</p></div>
                                                                                 </td>
