@@ -78,7 +78,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				</div>
 			</div>
 		</nav>
-		<header id="first" style="background-image:url('{{asset('/images/bg1.jpg')}}')">
+		<header id="first" style="background-image:url('{{asset('/images/bg1.jpeg')}}')">
 			<!-- <header id="first" style=""> -->
 			<div class="header-content">
 				<div class="inner" id="headertext">
@@ -159,7 +159,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								Avid blogger , anchor ,author of the best seller “The Connected Age” and a recipient of the CNBC Asia’s “India’s Business Leader of the Year” are just a few of the  many things that makes him stand out among the rest of them. A multifaceted personality, Sudhakar Ram is the Chairman, Managing Director and Chief Executive Officer of the Global software phenomenon “Mastek”. He is an alumnus of the prestigious IIM-Calcutta and Loyola College, Chennai. “Mastek” was the brainchild of Sudhakar Ram and three other MBA Graduates from IIM Ahmedabad. He is among the first ones to prove why venturing into entrepreneurship is the most sensible and rewarding investment ever made. </div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/sudhakarram.jpg')}}" class="img-responsive" alt="Image 1">
+							<img src="{{asset('/images/speakers/sudhakarram.jpeg')}}" class="img-responsive" alt="Image 1">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -180,7 +180,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 							</div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/rajeevgupta.jpg')}}" class="img-responsive" alt="Image 2">
+							<img src="{{asset('/images/speakers/rajeevgupta.jpeg')}}" class="img-responsive" alt="Image 2">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -201,7 +201,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 							</div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/kumudsrinivasan.jpg')}}" class="img-responsive" alt="Image 4">
+							<img src="{{asset('/images/speakers/kumudsrinivasan.jpeg')}}" class="img-responsive" alt="Image 4">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -232,7 +232,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								Meet Anand Subramanian , the Senior Director of Marketing Communications and Spokesperson of OLA Cabs, India’s smartest and largest cab network. Being an integral part of many successful tech startups like ‘Cocubes.com’, ‘Future Vista view Edutech Pvt Ltd’ and many more, has helped him gain immense experience as a marketing and communication leader and has made him the one stop solution provider at Ola Cabs . He has been a torchbearer in the brand building of startups in India. Stay tuned to hear him share Ola’s take on “Make in India”  campaign , discuss the necessity of environmental policies to be adopted by startups,reveal Ola’s future plans and much more. </div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/anandsubramanian.jpg')}}"class="img-responsive" alt="Image 3">
+							<img src="{{asset('/images/speakers/anandsubramanian.jpeg')}}"class="img-responsive" alt="Image 3">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -251,7 +251,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								A man who wears many hats, Dheeraj Sinha leads the strategic planning function for Grey (WPP Group) and is also the author of two highly acclaimed books – ‘Consumer India – Inside the Indian Mind and Wallet’, and ‘India Reloaded – Inside the Resurgent Indian Consumer Market’. A man with years of experience, he has worked for huge brands and companies such as Emirates, Colgate, Reliance Mobile, MasterCard, and many more. The many accolades he has to his name include the Jay Chiat Planning Award, the Asian Marketing Effectiveness Award and the Yahoo Big Idea Chair. He is also a three time recipient of the prestigious Atticus Awards, and was named in CampaignAsia’s top 40 under 40 list for 2014 for advertising and marketing. Hear what he has to say on the ‘Make In India’ campaign at Pragyan’s Youth Business Summit 2016. </div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/dheerajsinha.jpg')}}" class="img-responsive" alt="Image 4">
+							<img src="{{asset('/images/speakers/dheerajsinha.jpeg')}}" class="img-responsive" alt="Image 4">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -273,7 +273,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 							</div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/govindraj.jpg')}}" class="img-responsive" alt="Image 4">
+							<img src="{{asset('/images/speakers/govindraj.jpeg')}}" class="img-responsive" alt="Image 4">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -288,17 +288,17 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					
 					<div class="col-lg-4 col-sm-6 speaker">
 						<div class="details" style="display:none">
-							<div class="name">Alok Sarogi</div>
+							<div class="name">Alok Saraogi</div>
 							<div class="about">
 								Appointed in the year 2013 by Indian automobile giant - Ashok Leyland - as their Corporate Communications Head, Mr. Alok Saraogi added the position to a long list of continuously growing achievements and accomplishments. Mr.Saraogi brings with him over 20 years of experience spanning FMCG, Services and Advertising,  Automobile, Retail, Aviation, Internet Services and Communication Industries. Apart from this he was also the Global Brand Com Head of Jet Airways and the Vice President of FutureBrands Ltd. He has also been nominated as Marketer of the Year and recognized by the CMO Council as a member of the 50 Most Talented Brand Leaders in India. He is a known speaker at seminars and conferences across the country on subjects ranging from consumer behavior, marketing insights to the digital space. 
 							</div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/aloksaraoji.jpg')}}" class="img-responsive" alt="Image 5">
+							<img src="{{asset('/images/speakers/aloksaraoji.jpeg')}}" class="img-responsive" alt="Image 5">
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
-										<h3>Alok Sarogi</h3>
+										<h3>Alok Saraogi</h3>
 										<h4>Head of Brand and Communications, Ashok Leyland</h4>
 										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
 									</div>
@@ -487,7 +487,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h2 class="margin-top-0 wow fadeIn text-primary">Request an invite</h2>
 						<hr class="primary">
-						<p>Sign up for a free networking opportunity, during a luncheon, with these trailblazers. Fill out the form below along with your statement of purpose. Register your invite requests on or before December 15th, 2015.
+						<p>Sign up for a free networking opportunity, during a luncheon, with these trailblazers. Fill out the form below along with your statement of purpose. Register your invite requests on or before December 31<sup>st</sup>, 2015.
 							<br>We'll get back to you as soon as possible.</p>
 					</div>
 					<div class="col-lg-10 col-lg-offset-1 text-center">
