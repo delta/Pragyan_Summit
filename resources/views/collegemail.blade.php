@@ -282,7 +282,7 @@ Respmail v1.1 (http://charlesmudy.com/respmail/)
                                                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                                 <tr>
                                                                     <td valign="top" class="imageContent">
-                                                                        <img src="{{asset('/images/inviteweb.jpg')}}" width="500" class="flexibleImage" style="max-width:500px;width:100%;display:block;" alt="Text" title="Text" />
+                                                                        <img src="<?php echo $message->embed('/var/www/summit/public/images/inviteweb.jpg'); ?>" width="500" class="flexibleImage" style="max-width:500px;width:100%;display:block;" alt="Text" title="Text" />
                                                                     </td>
                                                                 </tr>
                                                             </table>
@@ -429,7 +429,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/anandsubramanian.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/anandsubramanian.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Anand Subramanian</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Director of Marketing Communications, OLA cabs</div>
                                                                                 </td>
@@ -440,7 +440,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/aloksaraoji.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/aloksaraoji.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Alok Saraogi</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Head of Brand and Communications, Ashok Leyland</div>
                                                                                 </td>
@@ -523,7 +523,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/dheerajsinha.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/dheerajsinha.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Dheeraj Sinha</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Chief Strategy Officer at Grey; An author</div>
                                                                                 </td>
@@ -534,7 +534,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/govindraj.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/govindraj.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Govind Ethiraj</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Founder of Ping Digital Broadcast</div>
                                                                                 </td>
@@ -662,7 +662,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/kumudsrinivasan.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/kumudsrinivasan.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Ms. Kumud Srinivasan</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">President, Intel India</div>
                                                                                 </td>
@@ -673,7 +673,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table class="flexibleContainerBoxNext" border="0" cellpadding="0" cellspacing="0" width="210" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/speakers/rajeevgupta.jpg')}}" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/speakers/rajeevgupta.jpg'); ?>" width="210" class="flexibleImage" style="max-width:100%;" alt="Text" title="Text" />
                                                                                     <h3 style="color:#5F5F5F;line-height:125%;font-family:Helvetica,Arial,sans-serif;font-size:20px;font-weight:normal;margin-top:10px;margin-bottom:3px;text-align:left;">Rajeev Gupta</h3>
                                                                                     <div style="text-align:left;font-family:Helvetica,Arial,sans-serif;font-size:15px;margin-bottom:0;color:#5F5F5F;line-height:135%;">Secretary of Youth Affairs, Govt. Of India</div>
                                                                                 </td>
@@ -979,7 +979,7 @@ The Youth Business Summit is an exclusive platform for your esteemed institution
                                                                         <table border="0" cellpadding="0" cellspacing="0" width="90" style="max-width:100%;">
                                                                             <tr>
                                                                                 <td align="left" class="textContent">
-                                                                                    <img src="{{asset('/images/Sign_2.jpg')}}" width="73" class="flexibleImageSmall" style="max-width:100%;" alt="Text" title="Text" />
+                                                                                    <img src="<?php echo $message->embed('/var/www/summit/public/images/Sign_2.jpg'); ?>" width="73" class="flexibleImageSmall" style="max-width:100%;" alt="Text" title="Text" />
                                                                                 </td>
                                                                             </tr>
                                                                         </table>
