@@ -21,4 +21,5 @@ Route::group(['middleware' => 'AdminAuth'], function () {
 	Route::get('/admin','AdminController@view');
 	Route::get('/admin/colleges','AdminController@show_colleges');
 	Route::post('/admin/colleges/sendmail','AdminController@send_college_email');
+	Route::post('/admin/colleges/sendall','AdminController@send_all_coll_mails');
 });

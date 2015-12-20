@@ -16,8 +16,15 @@
 	<body>
 		<div id="content" class="container-fluid">
 			<h1>Pragyan Summit</h1>
+			
+			<div style="float:right">
+				<button class="btn btn-danger" id="sendall">Send emails to all the colleges</button>
+			</div>
+			
 			<div class="panel">
 				<div class="panel-heading">College List</div>
+
+
 				<div class="panel-body">
 					<table class="table table-striped" id="college_list">
 						<thead>
@@ -25,6 +32,7 @@
 								<th>Name</th>
 								<th>Email</th>
 								<th></th>
+								<th>Sent</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -33,6 +41,14 @@
 									<td>{{$college->name}}</td>
 									<td>{{$college->email}}</td>
 									<td id="{{$college->id}}" class="emailbtn"><button id="{{$college->id}}" class="btn btn-info">Send Mail</button></td>
+
+									<td>
+										@if($college->sent == 0)
+											Not Sent
+										@else
+											sent
+										@endif	
+									</td>
 								</tr>
 							@endforeach
 						</tbody>
@@ -67,6 +83,16 @@
 		            });
 
 				});
+
+				$("#sendall").click(function(){
+						$.ajax({
+						method: "POST",
+						url: "{{action('AdminController@send_all_coll_mails')}}",
+					}).done(function( msg ) {
+						alert(msg);	
+		            });
+
+				})
 			});
 
 		</script>

@@ -10,6 +10,8 @@ use App\Registrant;
 use App\College;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Redirect;
+use App\Jobs\SendCollegeEmail;
+
 
 class AdminController extends Controller
 {
@@ -57,11 +59,26 @@ class AdminController extends Controller
 		$hash = sha1($coll->name."Pragyan Summit Rocks".$coll->email);
 		$reglink = action('ViewController@index')."/rsvp?id=".$id."&hash=".$hash;
 
-		Mail::send('collegemail', ['name' => $coll->name,'reglink'=>$reglink], function ($m) use ($coll) {
-			$m->from('noreply@pragyan.org', 'Team Pragyan');
-			$m->to($coll->email, $coll->name)->subject('Pragyan Youth Business Summit');
-		});
-
+		// Mail::send('collegemail', ['name' => $coll->name,'reglink'=>$reglink], function ($m) use ($coll) {
+		// 	$m->from('noreply@pragyan.org', 'Team Pragyan');
+		// 	$m->to($coll->email, $coll->name)->subject('Pragyan Youth Business Summit');
+		// });
+		$this->dispatch(new SendCollegeEmail($coll,action('ViewController@index')));
 		echo "Email Sent Successfully to ".$coll->email;
+	}
+
+	public function send_all_coll_mails(Request $request)
+	{
+		$colleges = College::all();
+
+		foreach ($colleges as $coll) 
+		{
+			if($coll->sent == 0)
+			{
+				$this->dispatch(new SendCollegeEmail($coll,action('ViewController@index')));
+			}
+		}
+
+		return "Sent Emails to All the colleges";
 	}
 }
