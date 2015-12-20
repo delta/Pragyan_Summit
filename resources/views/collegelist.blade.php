@@ -59,7 +59,7 @@
 
 					$.ajax({
 						method: "POST",
-						url: "/admin/colleges/sendmail",
+						url: "{{action('AdminController@send_college_email')}}",
 						data: {'id':id}             
 
 					}).done(function( msg ) {
