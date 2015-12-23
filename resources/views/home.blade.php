@@ -152,7 +152,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				<br>
 				<div class="row no-gutter">
 					
-					<div class="col-lg-4 col-sm-6 speaker">
+					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
 						<div class="details" style="display:none">
 							<div class="name">Sudhakar Ram</div>
 							<div class="about">
@@ -193,7 +193,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						</a>
 					</div>
 					
-					<div class="col-lg-4 col-sm-6 speaker">
+					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
 						<div class="details" style="display:none">
 							<div class="name">Kumud Srinivasan</div>
 							<div class="about">
@@ -208,6 +208,27 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<h3>Kumud Srinivasan</h3>
 										<h4>President, Intel India</h4>
 										<!-- <i class="icon-lg ion-ios-search">Thala</i> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-4 col-sm-6 speaker">
+						<div class="details" style="display:none">
+							<div class="name">Amit Jain</div>
+							<div class="about">
+								Amit Jain, a visionary in the domain of Automotive Cockpit Electronics, is Country Head of Electronics Group, India, Visteon Corporation. Responsible for Visteon’s business in India and the ASEAN region, he plays a prime role in customer relationship management, P&amp;L and new business growth. He envisions an automotive market with affordable connected technologies in entry level cars and two wheelers, and has piloted several successful projects in information displays and infotainment arenas of the automobile sphere. Pragyan’s Youth Business Summit 2016 provides all automobile enthusiasts and electronics zealots out there an opportunity to interact with Amit Jain, an expert and marketing strategist, and the chance to learn and discover more in these areas.
+							</div>
+						</div>
+						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
+							<img src="{{asset('/images/speakers/amitjain.jpeg')}}" class="img-responsive" alt="Image 5">
+							<div class="gallery-box-caption">
+								<div class="gallery-box-content">
+									<div>
+										<h3>Amit Jain</h3>
+										<h4>Country Head, Visteon Electronics India</h4>
+										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
 									</div>
 								</div>
 							</div>
@@ -286,7 +307,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						</a>
 					</div>
 					
-					<div class="col-lg-4 col-sm-6 speaker">
+					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
 						<div class="details" style="display:none">
 							<div class="name">Alok Saraogi</div>
 							<div class="about">
@@ -327,26 +348,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						</a>
 					</div>
 
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Amit Jain</div>
-							<div class="about">
-								Amit Jain, a visionary in the domain of Automotive Cockpit Electronics, is Country Head of Electronics Group, India, Visteon Corporation. Responsible for Visteon’s business in India and the ASEAN region, he plays a prime role in customer relationship management, P&amp;L and new business growth. He envisions an automotive market with affordable connected technologies in entry level cars and two wheelers, and has piloted several successful projects in information displays and infotainment arenas of the automobile sphere. Pragyan’s Youth Business Summit 2016 provides all automobile enthusiasts and electronics zealots out there an opportunity to interact with Amit Jain, an expert and marketing strategist, and the chance to learn and discover more in these areas.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/amitjain.jpeg')}}" class="img-responsive" alt="Image 5">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Amit Jain</h3>
-										<h4>Country Head, Visteon Electronics India</h4>
-										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
+					
 
 				</div>
 			</div>
