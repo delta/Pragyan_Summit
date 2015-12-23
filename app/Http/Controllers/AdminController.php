@@ -69,7 +69,7 @@ class AdminController extends Controller
 
 	public function send_all_coll_mails(Request $request)
 	{
-		$colleges = College::all();
+		$colleges = College::where('sent', 0)->get();
 
 		foreach ($colleges as $coll) 
 		{

@@ -159,7 +159,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								Avid blogger , anchor ,author of the best seller “The Connected Age” and a recipient of the CNBC Asia’s “India’s Business Leader of the Year” are just a few of the  many things that makes him stand out among the rest of them. A multifaceted personality, Sudhakar Ram is the Chairman, Managing Director and Chief Executive Officer of the Global software phenomenon “Mastek”. He is an alumnus of the prestigious IIM-Calcutta and Loyola College, Chennai. “Mastek” was the brainchild of Sudhakar Ram and three other MBA Graduates from IIM Ahmedabad. He is among the first ones to prove why venturing into entrepreneurship is the most sensible and rewarding investment ever made. </div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/sudhakarram.jpeg')}}" class="img-responsive" alt="Image 1">
+							<img src="{{asset('/images/speakers/sudhakarram.jpeg')}}" class="img-responsive" alt="Image 1" >
 							<div class="gallery-box-caption">
 								<div class="gallery-box-content">
 									<div>
@@ -197,7 +197,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						<div class="details" style="display:none">
 							<div class="name">Kumud Srinivasan</div>
 							<div class="about">
-								Focused, motivated, natural leader. These are but a few of the many adjectives that can be used to describe Kumud Srinivasan, the President of Intel India. Her extensive career spans over 28 years and tracks a growth from Director, Factory Automation at Intel, New Mexico to President of Intel's Indian operations. Her leadership roles have seen her gain experience in IT, business growth, external partnerships, and site operations, across Intel’s global footprint. This University of California, Berkeley alumnus also serves on several national and international education and industry boards. She also currently holds the position of Chairperson of the National Institute of Technology, Tiruchirappalli. This Youth Business Summit is your chance to hear Kumud Srinivasan voice her views and goals.
+								Meet Kumud M. Srinivasan , the Vice President of the Sales & Marketing Division , and President of the semiconductor giant , Intel India. She is the modern day epitome of intellectual charisma everyone can look up to. Ever since she joined Intel in 1987, she has proved her managerial and intellectual prowess by excelling as a strategic planner and an able leader in every field she worked on - be it manufacturing, IT, business growth, external partnerships or site operations, across Intel’s global footprint. She is an alumnus of the prestigious University of California, Berkeley. Currently she is the Chairperson of NIT Trichy and also serves as a member of the governing body of reputed academic institutions in India and abroad. She also serves on the Executive Council of FICCI and other industrial and technical organizations.
 							</div>
 						</div>
 						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
@@ -223,7 +223,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				<br>
 
 				<div class="row no-gutter">
-					<div class="col-lg-4 col-lg-offset-2 col-sm-6 speaker">
+					<div class="col-lg-4 col-sm-6 speaker">
 						<div class="details" style="display:none">
 							<div class="name">
 								Anand Subramanian
@@ -265,7 +265,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					</div>
 
 
-					<div class="col-lg-4 col-lg-offset-2 col-sm-6 speaker">
+					<div class="col-lg-4 col-sm-6 speaker">
 						<div class="details" style="display:none">
 							<div class="name">Govindraj Ethiraj</div>
 							<div class="about">
@@ -300,6 +300,47 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 									<div>
 										<h3>Alok Saraogi</h3>
 										<h4>Head of Brand and Communications, Ashok Leyland</h4>
+										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-sm-6 speaker">
+						<div class="details" style="display:none">
+							<div class="name">Dimple Gujral</div>
+							<div class="about">
+								Attaining a Bachelor’s Degree in Commerce from Narsee Monjee of Mumbai, Dimple Gujral brought herself forward to assist the Teach for India initiative with over 15 years of leadership experience in financial planning, governance and risk management after going across various multinational organizations such as Cleartrip, Kuoni and FedEx. Possessing an extensive knowledge of accounting and taxation controls, she is now working as the CFO for Teach for India, which is an NGO working towards leveling the educational system in India. Believing in the power of quality education, she strives each day to make sure that every child across India attains quality education across all levels.
+							</div>
+						</div>
+						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
+							<img src="{{asset('/images/speakers/dimplegujral.jpg')}}" class="img-responsive" alt="Image 5">
+							<div class="gallery-box-caption">
+								<div class="gallery-box-content">
+									<div>
+										<h3>Dimple Gujral</h3>
+										<h4>Chief Finance Office, Teach for India</h4>
+										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-4 col-sm-6 speaker">
+						<div class="details" style="display:none">
+							<div class="name">Amit Jain</div>
+							<div class="about">
+								Amit Jain, a visionary in the domain of Automotive Cockpit Electronics, is Country Head of Electronics Group, India, Visteon Corporation. Responsible for Visteon’s business in India and the ASEAN region, he plays a prime role in customer relationship management, P&amp;L and new business growth. He envisions an automotive market with affordable connected technologies in entry level cars and two wheelers, and has piloted several successful projects in information displays and infotainment arenas of the automobile sphere. Pragyan’s Youth Business Summit 2016 provides all automobile enthusiasts and electronics zealots out there an opportunity to interact with Amit Jain, an expert and marketing strategist, and the chance to learn and discover more in these areas.
+							</div>
+						</div>
+						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
+							<img src="{{asset('/images/speakers/amitjain.jpeg')}}" class="img-responsive" alt="Image 5">
+							<div class="gallery-box-caption">
+								<div class="gallery-box-content">
+									<div>
+										<h3>Amit Jain</h3>
+										<h4>Country Head, Visteon Electronics India</h4>
 										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
 									</div>
 								</div>

@@ -44,6 +44,11 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 	
 		<div class="container" id="myformcontainer">
 			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12 img img-responsive">
+					<center><img alt="" src="https://www.pragyan.org/summit/images/pragyanlogo.png"/></center>
+				</div>
+			</div>
+			<div class="row">
 				<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
 					<center>
 						<h3>
@@ -90,7 +95,21 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					</form>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+					<ul>
+						<li><b>Please respond to the invite by 11.59PM | January 8<sup>th</sup>, 2016</b></li>
+						<li>An entry ticket/invitation will be mailed to the above mentioned mail ID by January 15th, 2016.</li>
+						<li>Response to the invite will be considered on a first come first serve basis.</li>
+						<li>Only 2 students are allowed to participate from each institute.</li>
+						<li>The registration fee for the participants from your institute will be waived.</li>
+						<li>The participants get to attend a free networking luncheon session with the luminaries.</li>
+						<li>Multiple responses from the same institute will not be considered.</li>
+					</ul>
+				</div>
+			</div>
 		</div>
+
 
 		<!--scripts loaded here from cdn for performance -->
 		<script src="{{ asset('/js/jquery.min.js') }}"></script>

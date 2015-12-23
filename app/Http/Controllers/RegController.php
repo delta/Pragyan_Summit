@@ -50,7 +50,7 @@ class RegController extends Controller
 
         Mail::send('mail', ['name' => $request->get('name')], function ($m) use ($request) {
 
-            $m->from('noreply@pragyan.org', 'Team Pragyan');
+            $m->from('summit@pragyan.org', 'Pragyan NIT Trichy');
             $m->to($request->get('email'), $request->get('name'))->subject('Pragyan Youth Business Summit');
         });
         // Log::info("Sent mail");

@@ -44,7 +44,7 @@ class SendCollegeEmail extends Job implements SelfHandling, ShouldQueue
         
 
         Mail::send('collegemail', ['name' => $coll->name,'reglink'=>$reglink], function ($m) use ($coll) {
-            $m->from('noreply@pragyan.org', 'Team Pragyan');
+            $m->from('summit@pragyan.org', 'Pragyan NIT Trichy');
             $m->to($coll->email, $coll->name)->subject('Pragyan Youth Business Summit');
         });
 

@@ -40,7 +40,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title" style="color:#9c27c1">Invalid Link. Please contact Pragyan Team</div>
+                <div class="title" style="color:#9c27c1">Invalid Link. Please contact Pragyan Team<br/>Contact us at +91 90031 87061 | +91 97913 95753
+</div>
             </div>
         </div>
     </body>
