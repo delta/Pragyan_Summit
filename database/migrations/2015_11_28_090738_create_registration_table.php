@@ -18,6 +18,7 @@ class CreateRegistrationTable extends Migration
             $table->string('name', 40);
             $table->string('email', 40);
             $table->string('phone', 40);
+            $table->string('organisation', 40);
             $table->string('type', 40);
             $table->string('sop', 2000);
             //For created_at and updated_at fields.

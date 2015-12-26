@@ -547,6 +547,13 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								<label></label>
 								<input name="phone" type="text" pattern="[0-9]{10}" class="form-control" placeholder="10 digit phone number" required maxlength="40">
 							</div>
+
+							<div class="col-md-6 col-md-offset-3">
+								<label></label>
+								<input name="organisation" type="text" class="form-control" placeholder="Name of college/organisation" required maxlength="40">
+							</div>
+
+
 							<div class="col-md-12">
 								<label></label>
 								<select name="type" class="form-control">

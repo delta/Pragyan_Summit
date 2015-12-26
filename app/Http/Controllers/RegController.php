@@ -24,12 +24,13 @@ class RegController extends Controller
         // var_dump($request->all());
         // Log::info($request->all());
         $v = Validator::make($request->all(), [
-        'name'          => 'required|min:3|max:20',
-        'email'         => 'required|email',
-        'sop'           => 'required|max:2000',
-        'type'           => 'required|in:Student,Corporate',
-        'phone'         => 'required|integer|digits_between:10,10',
-        'g-recaptcha-response' => 'required|recaptcha',
+            'name'          => 'required|min:3|max:20',
+            'email'         => 'required|email',
+            'sop'           => 'required|max:2000',
+            'organisation'  => 'required|max:40',
+            'type'          => 'required|in:Student,Corporate',
+            'phone'         => 'required|integer|digits_between:10,10',
+            'g-recaptcha-response' => 'required|recaptcha',
         ]);
 
         if($v->fails())
@@ -46,6 +47,7 @@ class RegController extends Controller
         $reg->email = $request->get('email');
         $reg->sop = $request->get('sop');
         $reg->type = $request->get('type');
+        $reg->organisation = $request->get('organisation');
         // Log::info("Now sending mail");
 
         Mail::send('mail', ['name' => $request->get('name')], function ($m) use ($request) {
