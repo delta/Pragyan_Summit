@@ -60,7 +60,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 			</div>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
-					<form action="{{ action('ViewController@index') }}/submitrsvp" method="post">
+					<form action="{{ action('ViewController@submitrsvp') }}" method="post">
 
 						<input type="hidden" name="_token" id="csrf-token" value="{{ csrf_token() }}" />
 						<input type="hidden" name="id" value="{{$id}}">
