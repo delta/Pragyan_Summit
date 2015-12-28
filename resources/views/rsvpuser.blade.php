@@ -68,11 +68,10 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 							<input type="text" class="form-control" value="" maxlength="40" id="f1" name="f1" required>
 						</div>
 
-<!-- 						<div class="form-group">
-							<label class="control-label">Student 2</label>
-							<input type="text" class="form-control" value="" maxlength="40" id="f2" name="f2" required>
+ 						<div class="form-group">
+							<label class="control-label">Organization Name</label>
+							<input type="text" class="form-control" value="" maxlength="40" id="organization" name="organization" required>
 						</div>
- -->						
 						<div class="form-group">
 							<label class="control-label">Email address</label>
 							<input type="email" class="form-control" value="" maxlength="40" id="email" name="email">
@@ -105,10 +104,8 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						<li><b>Please respond to the invite by 11.59PM | January 8<sup>th</sup>, 2016</b></li>
 						<li>An entry ticket/invitation will be mailed to the above mentioned mail ID by January 15th, 2016.</li>
 						<li>Response to the invite will be considered on a first come first serve basis.</li>
-						<li>Only 2 students are allowed to participate from each institute.</li>
-						<li>The registration fee for the participants from your institute will be waived.</li>
+						<li>The registration fee for the participants from your organization will be waived.</li>
 						<li>The participants get to attend a free networking luncheon session with the luminaries.</li>
-						<li>Multiple responses from the same institute will not be considered.</li>
 					</ul>
 				</div>
 			</div>

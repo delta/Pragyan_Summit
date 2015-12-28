@@ -356,7 +356,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 		<section class="container-fluid" id="four">
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-					<h2 class="text-center text-primary">Schedule</h2>
+					<h2 class="text-center text-primary">Schedule - January 23, 2016</h2>
 					<hr>
 				</div>
 
@@ -548,13 +548,13 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								<input name="phone" type="text" pattern="[0-9]{10}" class="form-control" placeholder="10 digit phone number" required maxlength="40">
 							</div>
 
-							<div class="col-md-6 col-md-offset-3">
+							<div class="col-md-6">
 								<label></label>
 								<input name="organisation" type="text" class="form-control" placeholder="Name of college/organisation" required maxlength="40">
 							</div>
 
 
-							<div class="col-md-12">
+							<div class="col-md-6">
 								<label></label>
 								<select name="type" class="form-control">
 									<option value="Student" selected>Student</option>

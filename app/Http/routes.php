@@ -17,7 +17,7 @@ Route::get('login','AdminController@login');
 Route::post('login','AdminController@check_login');
 
 Route::get('/rsvpuser','UserRSVPController@index');
-Route::post('/submituserrsvp','UserRSVPController@store');
+Route::post('/rsvpuser','UserRSVPController@store');
 
 Route::get('/rsvp','ViewController@rsvp');
 Route::post('/submitrsvp','ViewController@submitrsvp');

@@ -14,8 +14,9 @@ class UserRsvpTable extends Migration
     {
         Schema::create('user_rsvp', function(Blueprint $table)
         {
-            $table->integer('id')->unique();
+            $table->increments('id');
             $table->string('name', 40);
+	    $table->string('organization', 40);
             $table->string('email', 40);
             $table->string('phone', 40);
         });

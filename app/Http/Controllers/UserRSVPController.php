@@ -22,13 +22,14 @@ class UserRSVPController extends Controller
         return view('rsvpuser');
     }
 
-    public function store(Request $request)
-    {
-        $v = Validator::make($request->all(), [
-            'f1'          => 'required|min:3|max:20',
-            'email'         => 'required|email',
-            'phone'         => 'required|integer|digits_between:10,10',
-            'g-recaptcha-response' => 'required|recaptcha',
+	public function store(Request $request)
+	{
+		$v = Validator::make($request->all(), [
+            'f1'			=> 'required|min:3|max:20',
+            'email'			=> 'required|email',
+            'phone'			=> 'required|integer|digits_between:10,10',
+            'organization'		=> 'required|min:3|max:30',
+            'g-recaptcha-response'	=> 'required|recaptcha',
         ]);
 
         if($v->fails())
@@ -51,6 +52,7 @@ class UserRSVPController extends Controller
         $reg->name = $request->get('f1');
         $reg->phone = $request->get('phone');
         $reg->email = $request->get('email');
+	$reg->organization = $request->get('organization');
 
         $reg->save();
         

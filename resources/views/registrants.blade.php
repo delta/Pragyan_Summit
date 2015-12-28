@@ -24,6 +24,7 @@
 								<th>Email</th>
 								<th>Phone</th>
 								<th>Type</th>
+								<th>Institute name</th>
 								<th>SOP</th>
 							</tr>
 						</thead>
@@ -34,6 +35,7 @@
 									<td>{{$registration->email}}</td>
 									<td>{{$registration->phone}}</td>
 									<td>{{$registration->type}}</td>
+									<td>{{$registration->organisation}}</td>
 									<td>{{$registration->sop}}</td>
 								</tr>
 							@endforeach
