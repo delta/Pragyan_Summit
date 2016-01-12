@@ -364,6 +364,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					@media screen and (min-width: 992px) {
 						.schedule-text{
 							float:left !important;
+							text-align: left;
 						}
 						.schedule-badge{
 							float:right !important;
@@ -389,7 +390,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:00 AM - 10:40 AM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 1</span>
+										<span class="schedule-text" style="font-size:1em;">Shri Rajeev Gupta <span style="color:#666666;font-size:0.7em;"><br>Secretary for Youth Affairs, Govt of India</span></span>
 									</div>
 								</div>
 								<br>
@@ -398,7 +399,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:40 AM - 11:00 AM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Break with refreshments</span>
+										<span class="schedule-text" style="font-size:1em;">Tea Break</span>
 									</div>
 								</div>
 								<br>
@@ -407,7 +408,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:00 AM - 11:40 AM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 2</span>
+										<span class="schedule-text" style="font-size:1em;">"Leading India to its Tomorrow"<br>Kumud Srinivasan <span style="color:#666666;font-size:0.7em;"><br> President, Intel India</span></span>
 									</div>
 								</div>
 								<br>
@@ -416,7 +417,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:40 AM - 12:20 PM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 3</span>
+										<span class="schedule-text" style="font-size:1em;"> "Driving Forward - The Automobile Revolution"<br>Amit Jain <span style="color:#666666;font-size:0.7em;"><br> Country Head, Visteon Electronics India</span></span>
 									</div>
 								</div>
 								<br>
@@ -425,7 +426,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">12:20 PM - 02:00 PM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Networking Lunch</span>
+										<span class="schedule-text" style="font-size:1em;">Lunch and Networking</span>
 									</div>
 								</div>
 								<br>
@@ -434,7 +435,25 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">02:00 PM - 03:30 PM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Panel Discussion</span>
+										<span class="schedule-text" style="font-size:1em;">
+										
+											Panel Discussion on "Make in India" <br>
+											<span style="color:#d9411E">Panelists</span><br>
+											<span style="font-size:0.7em;">
+												Anand Subramaniam<br><span style="color:#666666"> Director of Marketing Communications, Olacabs </span><br>
+	                                            Dheeraj Sinha<br><span style="color:#666666"> Chief Strategy Officer, Grey Group </span><br>
+	                                            Alok Sarogi<br><span style="color:#666666"> Head of Brand and Communications, Ashok Leyland </span><br>
+	                                            Dimple Gujral<br><span style="color:#666666"> Chief Financial Officer, Teach for India </span><br>
+											</span>
+
+											<span style="color:#d9411E">Moderator</span><br>
+
+											<span style="font-size:0.7em;">
+												Govindraj Ethiraj<br> 
+												<span style="color:#666666">Founder, Ping Digital Broadcast</span><br>
+											</span>
+										
+										</span>
 									</div>
 								</div>
 								<br>
@@ -443,13 +462,13 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">03:30 PM - 04:10 PM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Keynote by Speaker 4</span>
+										<span class="schedule-text" style="font-size:1em;">"5 Steps to a successful Tech Start-up" <br>Sudhakar Ram <span style="color:#666666;font-size:0.7em;"><br>Founder and CEO, Mastek Group</span></span>
 									</div>
 								</div>
 								<br>
 								<div class="row">
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">04:15 PM - 05:00 PM</span>
+										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">04:10 PM - 05:00 PM</span>
 									</div>
 									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
 										<span class="schedule-text" style="font-size:1em;">Valediction</span>
