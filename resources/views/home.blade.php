@@ -459,6 +459,22 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 			</div>
 		</section>
 
+<style>
+#sponsor_list > div > img
+{
+   display: block;
+   margin: auto auto;
+   max-height:100px;
+}
+
+#sponsor_list > div 
+{
+   display:table-cell;
+   vertical-align:middle; 
+   text-align:center;
+}
+</style>		
+
 		<section id="sponsors">
 			<aside class="bg-dark" style="background-color:white">
 				<div class="container text-center">
@@ -466,22 +482,28 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						<h2 class="text-primary">Our Sponsors</h2>
 					</div>
 					<br>
-					<hr/>
-					<br>
 					<div class="row">
 						<div class="col-lg-10 col-lg-offset-1">
 							<div class="row">
-								<!-- <h6 class="wide-space text-center">BOOTSTRAP IS BASED ON THESE STANDARDS</h6> -->
+								<h6 class="wide-space text-center text-primary">Principal Partner</h6> 
 								<div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
-									<img src="{{ asset('/images/sp1.png') }}" class="img-responsive">    
+									<img src="{{ asset('/images/sp1.png') }}" class="img-responsive" style="margin-left: 110%;">    
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-10 col-lg-offset-1">
+							<div class="row" id="sponsor_list">
+								<h6 class="wide-space text-center text-primary">Associate Partners</h6>
+								<div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
+									<img src="{{ asset('/images/sp2.png') }}" class="img-responsive" >    
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
-									<img src="{{ asset('/images/sp2.png') }}" class="img-responsive">    
-									<!-- <i class="icon-lg ion-social-sass" title="sass"></i> -->
+									<img src="{{ asset('/images/mastek.png') }}" class="img-responsive">    
 								</div>
 								<div class="col-md-4 col-sm-4 col-xs-4 text-center" style="margin: 0 auto; overflow:none;">
-									<img src="{{ asset('/images/sp3.png') }}" class="img-responsive" style="width:100%">    
-									<!-- <i class="icon-lg ion-social-javascript-outline" title="javascript"></i> -->
+									<img src="{{ asset('/images/sp3.png') }}" class="img-responsive" >    
 								</div>
 							</div>
 						</div>
@@ -530,7 +552,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					<div class="col-lg-8 col-lg-offset-2 text-center">
 						<h2 class="margin-top-0 wow fadeIn text-primary">Request an invite</h2>
 						<hr class="primary">
-						<p>Sign up for a free networking opportunity, during a luncheon, with these trailblazers. Fill out the form below along with your statement of purpose. Register your invite requests on or before December 31<sup>st</sup>, 2015.
+						<p>Sign up for a free networking opportunity, during a luncheon, with these trailblazers. Fill out the form below along with your statement of purpose. Register your invite requests on or before January 14<sup>th</sup>, 2016.
 							<br>We'll get back to you as soon as possible.</p>
 					</div>
 					<div class="col-lg-10 col-lg-offset-1 text-center">
