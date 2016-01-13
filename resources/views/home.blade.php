@@ -724,7 +724,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-1 text-center">
-						<h4>Made with <i class="ion-heart"></i> by <a href="delta.nitt.edu">Delta Force</a> ©2015</h4>
+						<h4>Made with <i class="ion-heart"></i> by <a href="delta.nitt.edu">Delta Force</a> ©2016</h4>
 					</div>
 				</div>
 			</div>
