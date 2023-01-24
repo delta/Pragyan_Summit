@@ -47,25 +47,22 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 				<div class="navbar-collapse collapse" id="bs-navbar">
 					<ul class="nav navbar-nav">
 						<li>
-							<a class="page-scroll" href="#one">Intro</a>
+							<a class="page-scroll" href="#one">About Us</a>
 						</li>
 						<!-- <li>
 						     <a class="page-scroll" href="#two">Highlights</a>
 						     </li> -->
 						<li>
-							<a class="page-scroll" href="#three">Speakers</a>
+							<a class="page-scroll" href="#two">Topics</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#four">Schedule</a>
+							<a class="page-scroll" href="#three">Rules</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#sponsors">Sponsors</a>
+							<a class="page-scroll" href="#four">Benefits</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#venue">Venue</a>
-						</li>
-						<li>
-							<a class="page-scroll" href="#last">Register</a>
+							<a class="page-scroll" href="#five">Evaluation Criteria</a>
 						</li>
 						<li><a class="page-scroll" href="#contacts">Contact</a></li>
 					</ul>
@@ -101,379 +98,108 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						<h2 class="margin-top-0 text-primary">About us</h2>
 						<br>
 						<p class="text-faded">
-							Pragyan’s Youth Business Summit is an opportunity for young minds to congregate under a single roof, and participate in fruitful discussions with the pioneers of our nation. Hear the outlooks of some of the brightest minds of the nation; from technology to management, from multinational companies to leading startups. Prepare to broaden your horizons and open up your mind, while you get the chance to interact with these exceptional individuals and share your innovative ideas. As a participant of the summit, you aren’t just a spectator. You are a cog in the wheel that is moving towards revolutionizing our nation in all aspects.
-							<br>
-							Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technology.
+							To all the tech enthusiasts looking for the right mentorship to nurture your ideas, Pragyan ‘23
+							brings you the third edition of Young Techie. The students of classes VI to X are invited to
+							submit their abstract in about 200 words. The finalists will avail the opportunity of a 5-week
+							long project development program with mentorship from the technical clubs of NIT Trichy, and
+							their projects will be displayed during Pragyan, which is scheduled to be held from the 23rd to
+							the 26th of March, 2023.
 						</p>
-						<a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a>
+						{{-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> --}}
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- <section id="two">
-		     <div class="container">
-		     <div class="row">
-                     <div class="col-lg-12 text-center">
-                     <h2 class="margin-top-0 text-primary">Flexible Layouts</h2>
-                     <hr class="primary">
-                     </div>
-		     </div>
-		     </div>
-		     <div class="container">
-		     <div class="row">
-                     <div class="col-lg-4 col-md-4 text-center">
-                     <div class="feature">
-                     <i class="icon-lg ion-android-laptop wow fadeIn" data-wow-delay=".3s"></i>
-                     <h3>Responsive</h3>
-                     <p class="text-muted">Your site looks good everywhere</p>
-                     </div>
-                     </div>
-                     <div class="col-lg-4 col-md-4 text-center">
-                     <div class="feature">
-                     <i class="icon-lg ion-social-sass wow fadeInUp" data-wow-delay=".2s"></i>
-                     <h3>Customizable</h3>
-                     <p class="text-muted">Easy to theme and customize with SASS</p>
-                     </div>
-                     </div>
-                     <div class="col-lg-4 col-md-4 text-center">
-                     <div class="feature">
-                     <i class="icon-lg ion-ios-star-outline wow fadeIn" data-wow-delay=".3s"></i>
-                     <h3>Consistent</h3>
-                     <p class="text-muted">A mature, well-tested, stable codebase</p>
-                     </div>
-                     </div>
-		     </div>
-		     </div>
-		     </section> -->
-		<section id="three" class="no-padding">
-			<div class="container-fluid">
-				<h3 class="text-center text-primary">Keynote Speakers</h3>
-				<hr>
-				<br>
-				<div class="row no-gutter">
-					
-					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
-						<div class="details" style="display:none">
-							<div class="name">Sudhakar Ram</div>
-							<div class="about">
-								Avid blogger , anchor ,author of the best seller “The Connected Age” and a recipient of the CNBC Asia’s “India’s Business Leader of the Year” are just a few of the  many things that makes him stand out among the rest of them. A multifaceted personality, Sudhakar Ram is the Chairman, Managing Director and Chief Executive Officer of the Global software phenomenon “Mastek”. He is an alumnus of the prestigious IIM-Calcutta and Loyola College, Chennai. “Mastek” was the brainchild of Sudhakar Ram and three other MBA Graduates from IIM Ahmedabad. He is among the first ones to prove why venturing into entrepreneurship is the most sensible and rewarding investment ever made. </div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/sudhakarram.jpeg')}}" class="img-responsive" alt="Image 1" >
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3> Sudhakar Ram</h3>
-										<h4>CEO and MD of Mastek</h4>
-										<!-- <i class="icon-lg ion-ios-search"></i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
 
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Rajeev Gupta</div>
-							<div class="about">
-								Creating his mark as an assistant collector in the year 1981 on a small time scale, Shri Rajeev Gupta slowly escalated the ranks of various organizations from becoming the secretary of various cadres to becoming a commissioner for a private cadre in Agra, Gorakhpur and Uttar Pradesh. He then proceeded to become the Managing Director of the Agricultural Co-Op of India, taking a seat at the Ministry of Youth Affairs and Sports as the Secretary. Within a span of 32 years, Shri Rajeev Gupta has become well known in the industry for his role in various private cadres to agriculture, transport and even defense on a national scale. He has also received training from various institutes such as the Uttarakhand Academy of Administration, the National Informatics Centre, HUDCO and the Indian Institute of Management, Bangalore.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/rajeevgupta.jpeg')}}" class="img-responsive" alt="Image 2">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Rajeev Gupta</h3>
-										<h4>Secretary, Youth Affairs, Govt. of India</h4>
-										<!-- <i class="icon-lg ion-ios-search"></i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					
-					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
-						<div class="details" style="display:none">
-							<div class="name">Kumud Srinivasan</div>
-							<div class="about">
-								Meet Kumud M. Srinivasan , the Vice President of the Sales & Marketing Division , and President of the semiconductor giant , Intel India. She is the modern day epitome of intellectual charisma everyone can look up to. Ever since she joined Intel in 1987, she has proved her managerial and intellectual prowess by excelling as a strategic planner and an able leader in every field she worked on - be it manufacturing, IT, business growth, external partnerships or site operations, across Intel’s global footprint. She is an alumnus of the prestigious University of California, Berkeley. Currently she is the Chairperson of NIT Trichy and also serves as a member of the governing body of reputed academic institutions in India and abroad. She also serves on the Executive Council of FICCI and other industrial and technical organizations.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/kumudsrinivasan.jpeg')}}" class="img-responsive" alt="Image 4">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Kumud Srinivasan</h3>
-										<h4>President, Intel India</h4>
-										<!-- <i class="icon-lg ion-ios-search">Thala</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
+		<section class="bg-light" id="two" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+						<h2 class="margin-top-0 text-primary">Topics</h2>
+						<br>
+						<p>
+							<strong>
+								The project idea should fall into one of the following themes:
+							</strong>
+							<ol class="text-left ">
+								<li> Energy and Environment </li>
+								<li> Health Care and Agriculture </li>
+								<li> Defence </li>
+								<li> Education </li>
+								<li> Entrepreneurship and Management </li>
+								<li> Robotics and Automation </li>
+							</ol>
+							<p>
 
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Amit Jain</div>
-							<div class="about">
-								Amit Jain, a visionary in the domain of Automotive Cockpit Electronics, is Country Head of Electronics Group, India, Visteon Corporation. Responsible for Visteon’s business in India and the ASEAN region, he plays a prime role in customer relationship management, P&amp;L and new business growth. He envisions an automotive market with affordable connected technologies in entry level cars and two wheelers, and has piloted several successful projects in information displays and infotainment arenas of the automobile sphere. Pragyan’s Youth Business Summit 2016 provides all automobile enthusiasts and electronics zealots out there an opportunity to interact with Amit Jain, an expert and marketing strategist, and the chance to learn and discover more in these areas.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/amitjain.jpeg')}}" class="img-responsive" alt="Image 5">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Amit Jain</h3>
-										<h4>Country Head, Visteon Electronics India</h4>
-										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
+								Kindly include your email ID and contact numbers in your abstracts and submit the same by February 3rd, 2023, along with a scanned copy of your school IDs. 
+								The selected teams will be notified through mail or phone. 
+								Send your abstracts to <a href="mailto:youngtechie2023@gmail.com">youngtechie2023@gmail.com</a> 
+							</p>
+							</p>
+						{{-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> --}}
 					</div>
-					
-				</div>
-				<br>
-				<br>
-				
-				<center><h3 class="text-center text-primary">Panelists</h3></center>
-				<hr>
-				<br>
-
-				<div class="row no-gutter">
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">
-								Anand Subramanian
-							</div>
-							<div class="about">
-								Meet Anand Subramanian , the Senior Director of Marketing Communications and Spokesperson of OLA Cabs, India’s smartest and largest cab network. Being an integral part of many successful tech startups like ‘Cocubes.com’, ‘Future Vista view Edutech Pvt Ltd’ and many more, has helped him gain immense experience as a marketing and communication leader and has made him the one stop solution provider at Ola Cabs . He has been a torchbearer in the brand building of startups in India. Stay tuned to hear him share Ola’s take on “Make in India”  campaign , discuss the necessity of environmental policies to be adopted by startups,reveal Ola’s future plans and much more. </div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/anandsubramanian.jpeg')}}"class="img-responsive" alt="Image 3">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Anand Subramanian</h3>
-										<h4>Director of Marketing Communication, Ola Cabs</h4>
-										<!-- <i class="icon-lg ion-ios-search"></i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Dheeraj Sinha</div>
-							<div class="about">
-								A man who wears many hats, Dheeraj Sinha leads the strategic planning function for Grey (WPP Group) and is also the author of two highly acclaimed books – ‘Consumer India – Inside the Indian Mind and Wallet’, and ‘India Reloaded – Inside the Resurgent Indian Consumer Market’. A man with years of experience, he has worked for huge brands and companies such as Emirates, Colgate, Reliance Mobile, MasterCard, and many more. The many accolades he has to his name include the Jay Chiat Planning Award, the Asian Marketing Effectiveness Award and the Yahoo Big Idea Chair. He is also a three time recipient of the prestigious Atticus Awards, and was named in CampaignAsia’s top 40 under 40 list for 2014 for advertising and marketing. Hear what he has to say on the ‘Make In India’ campaign at Pragyan’s Youth Business Summit 2016. </div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/dheerajsinha.jpeg')}}" class="img-responsive" alt="Image 4">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Dheeraj Sinha</h3>
-										<h4> Chief Strategy Officer, GREY<br>author, Consumer India-Inside the Indian mind and wallet</h4>
-										<!-- <i class="icon-lg ion-ios-search">Thala</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Govindraj Ethiraj</div>
-							<div class="about">
-								Govindraj Ethiraj is the Founder of Ping Digital Broadcast, a start-up television knowledge, news and  talent network for digital audiences. This television and print journalist is also the founder of www.indiaspend.org, India’s first data journalism initiative and social entrepreneurship venture. Not one to fit in with conventional roles, he has extended his profile by writing  for both Forbes India and the Business Standard and is also a Consulting Editor with television channel Headlines Today where he presently anchors the show: Bottomline. He has sown the seed for several leading journalistic mediums: The Founder-Editor in Chief of Bloomberg TV, India, Editor (New Media) Business Standard newspaper and five years with CNBC- TV18 where he actively drove the channels expansion initiatives. Govindraj Ethiraj will be taking on the role of moderator at the Youth Business Summit.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/govindraj.jpeg')}}" class="img-responsive" alt="Image 4">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Govindraj Ethiraj</h3>
-										<h4>Founder, Ping Digital Broadcast & www.indiaspend.org</h4>
-										<!-- <i class="icon-lg ion-ios-search">Thala</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					
-					<div class="col-lg-4 col-sm-6 speaker col-lg-offset-2">
-						<div class="details" style="display:none">
-							<div class="name">Alok Saraogi</div>
-							<div class="about">
-								Appointed in the year 2013 by Indian automobile giant - Ashok Leyland - as their Corporate Communications Head, Mr. Alok Saraogi added the position to a long list of continuously growing achievements and accomplishments. Mr.Saraogi brings with him over 20 years of experience spanning FMCG, Services and Advertising,  Automobile, Retail, Aviation, Internet Services and Communication Industries. Apart from this he was also the Global Brand Com Head of Jet Airways and the Vice President of FutureBrands Ltd. He has also been nominated as Marketer of the Year and recognized by the CMO Council as a member of the 50 Most Talented Brand Leaders in India. He is a known speaker at seminars and conferences across the country on subjects ranging from consumer behavior, marketing insights to the digital space. 
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/aloksaraoji.jpeg')}}" class="img-responsive" alt="Image 5">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Alok Saraogi</h3>
-										<h4>Head of Brand and Communications, Ashok Leyland</h4>
-										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 speaker">
-						<div class="details" style="display:none">
-							<div class="name">Dimple Gujral</div>
-							<div class="about">
-								Attaining a Bachelor’s Degree in Commerce from Narsee Monjee of Mumbai, Dimple Gujral brought herself forward to assist the Teach for India initiative with over 15 years of leadership experience in financial planning, governance and risk management after going across various multinational organizations such as Cleartrip, Kuoni and FedEx. Possessing an extensive knowledge of accounting and taxation controls, she is now working as the CFO for Teach for India, which is an NGO working towards leveling the educational system in India. Believing in the power of quality education, she strives each day to make sure that every child across India attains quality education across all levels.
-							</div>
-						</div>
-						<a href="#galleryModal" class="gallery-box" data-toggle="modal" >
-							<img src="{{asset('/images/speakers/dimplegujral.jpg')}}" class="img-responsive" alt="Image 5">
-							<div class="gallery-box-caption">
-								<div class="gallery-box-content">
-									<div>
-										<h3>Dimple Gujral</h3>
-										<h4>Chief Finance Office, Teach for India</h4>
-										<!-- <i class="icon-lg ion-ios-search">thambi</i> -->
-									</div>
-								</div>
-							</div>
-						</a>
-					</div>
-
-					
-
 				</div>
 			</div>
 		</section>
-		<section class="container-fluid" id="four">
-			<div class="row">
-				<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
-					<h2 class="text-center text-primary">Schedule - January 23, 2016</h2>
-					<hr>
+
+		<section class="bg-primary" id="three" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+						<h2 class="margin-top-0 text-primary">Rules</h2>
+						<br>
+						<p>
+							<ol class="text-faded">
+								<li>The maximum number of participants in each team is 4. </li>
+								<li>The project idea must fit into only one of the six themes. </li>
+								<li>A single individual may not be a part of more than one team. </li>
+								<li>Plagiarism is strictly prohibited. </li>
+								<li>The decision of the judges is deemed final and binding. </li>
+							</ol>
+						</p>
+						{{-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> --}}
+					</div>
 				</div>
+			</div>
+		</section>
 
-				<style type="text/css">
-					@media screen and (min-width: 992px) {
-						.schedule-text{
-							float:left !important;
-							text-align: left;
-						}
-						.schedule-badge{
-							float:right !important;
-						}
-					}
-				</style>
-	
+		<section class="bg-light" id="four" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+						<h2 class="margin-top-0 text-primary">Benefits</h2>
+						<br>
+						<p>
+							<ol>
+								<li>Certificates will be given to every participant.</li>
+								<li>Stellar mentorship will be provided to the participants</li>. 
+							</ol>
+						</p>
+						{{-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> --}}
+					</div>
+				</div>
+			</div>
+		</section>
 
-				<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12" style="text-align:center">
-						<div class="media wow fadeInRight">
-							
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">09:30 AM - 10:00 AM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Opening Remarks</span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:00 AM - 10:40 AM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Shri Rajeev Gupta <span style="color:#666666;font-size:0.7em;"><br>Secretary for Youth Affairs, Govt of India</span></span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">10:40 AM - 11:00 AM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Tea Break</span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:00 AM - 11:40 AM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">"Leading India to its Tomorrow"<br>Kumud Srinivasan <span style="color:#666666;font-size:0.7em;"><br> President, Intel India</span></span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">11:40 AM - 12:20 PM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;"> "Driving Forward - The Automobile Revolution"<br>Amit Jain <span style="color:#666666;font-size:0.7em;"><br> Country Head, Visteon Electronics India</span></span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">12:20 PM - 02:00 PM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Lunch and Networking</span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">02:00 PM - 03:30 PM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">
-										
-											Panel Discussion on "Make in India" <br>
-											<span style="color:#d9411E">Panelists</span><br>
-											<span style="font-size:0.7em;">
-												Anand Subramaniam<br><span style="color:#666666"> Director of Marketing Communications, Olacabs </span><br>
-	                                            Dheeraj Sinha<br><span style="color:#666666"> Chief Strategy Officer, Grey Group </span><br>
-	                                            Alok Sarogi<br><span style="color:#666666"> Head of Brand and Communications, Ashok Leyland </span><br>
-	                                            Dimple Gujral<br><span style="color:#666666"> Chief Financial Officer, Teach for India </span><br>
-											</span>
-
-											<span style="color:#d9411E">Moderator</span><br>
-
-											<span style="font-size:0.7em;">
-												Govindraj Ethiraj<br> 
-												<span style="color:#666666">Founder, Ping Digital Broadcast</span><br>
-											</span>
-										
-										</span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">03:30 PM - 04:10 PM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">"5 Steps to a successful Tech Start-up" <br>Sudhakar Ram <span style="color:#666666;font-size:0.7em;"><br>Founder and CEO, Mastek Group</span></span>
-									</div>
-								</div>
-								<br>
-								<div class="row">
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="badge schedule-badge" style="background-color:#D9411E;color:#D3D3D3">04:10 PM - 05:00 PM</span>
-									</div>
-									<div class="col-md-6 col-sm-12 col-xs-12" style="background-color:#333333; font-size:1.4em;">
-										<span class="schedule-text" style="font-size:1em;">Valediction</span>
-									</div>
-								</div>
+		<section class="bg-primary" id="five" >
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+						<h2 class="margin-top-0 text-primary"> Evaluation Criteria:</h2>
+						<br>
+						<p>
+							<ol class="text-faded">
+								<li>Novelty </li>
+								<li>Significance of the problem </li>
+								<li>Feasibility </li>
+								<li>Sustainability </li>
+								<li>The scale of impact </li>
+								<li>User experience </li>
+								<li>Scope of transforming into a merchantable product </li>
+							</ol>
+						</p>
+						{{-- <a href="#three" class="btn btn-default btn-xl page-scroll">Learn More</a> --}}
+					</div>
 				</div>
 			</div>
 		</section>
@@ -494,7 +220,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 }
 </style>		
 
-		<section id="sponsors">
+		{{-- <section id="sponsors">
 			<aside class="bg-dark" style="background-color:white">
 				<div class="container text-center">
 					<div class="call-to-action">
@@ -529,174 +255,36 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 					</div>
 				</div>
 			</aside>
-		</section>
-		<section id="venue">
-			<div class="container">
-				<center><h3>Hilton Chennai</h3></center>
-				<br>
-
-				<div class="row">
-					
-					<div id="hiltonimg" class="col-md-6 col-sm-12 col-xs-12">
-						<div id="my-slider">
-							<ul>
-								<li><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></li>
-								<li><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-6 col-sm-12 col-xs-12" style="height:100%">
-						<div class="img-responsive" style="height:100% !important;">
-							<iframe style="width:100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJVVf9rz5nUjoRrVsT-8U6c3I&key=AIzaSyBIqg_lj6tAX0mCQlPLTUmg35MCthrgrS8"></iframe> 
-						</div>
-					</div>
-					<!-- <div class="col-md-4 col-sm-12"><img src="{{asset('/images/hilton/1.jpg')}}" class="img-responsive"></div> -->
-					<!-- 
-					     <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/2.jpg')}}" class="img-responsive"></div>
-					     <div class="col-md-6 col-sm-12"><img src="{{asset('/images/hilton/3.jpg')}}" class="img-responsive"></div>
-					   -->
-				</div>
-			</div>
-			<!-- <div class="container">
-			     <div class="row">
-			     <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-			     </div>
-			     </div>
-			     </div> -->
-		</section>
-
-		<section id="last" class="bg-dark">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<h2 class="margin-top-0 wow fadeIn text-primary">Request an invite</h2>
-						<hr class="primary">
-						<p>Sign up for a free networking opportunity, during a luncheon, with these trailblazers. Fill out the form below along with your statement of purpose. Register your invite requests on or before January 14<sup>th</sup>, 2016.
-							<br>We'll get back to you as soon as possible.</p>
-					</div>
-					<div class="col-lg-10 col-lg-offset-1 text-center">
-						<form class="contact-form row" id="myregform">
-							<div class="col-md-4">
-								<label></label>
-								<input name="name" type="text" class="form-control" placeholder="Name" required maxlength="40">
-							</div>
-							<div class="col-md-4">
-								<label></label>
-								<input name="email" type="email" class="form-control" placeholder="Email" required maxlength="40">
-							</div>
-							<div class="col-md-4">
-								<label></label>
-								<input name="phone" type="text" pattern="[0-9]{10}" class="form-control" placeholder="10 digit phone number" required maxlength="40">
-							</div>
-
-							<div class="col-md-6">
-								<label></label>
-								<input name="organisation" type="text" class="form-control" placeholder="Name of college/organisation" required maxlength="40">
-							</div>
-
-
-							<div class="col-md-6">
-								<label></label>
-								<select name="type" class="form-control">
-									<option value="Student" selected>Student</option>
-									<option value="Corporate">Corporate</option>
-								</select>
-							</div>
-							<div class="col-md-12">
-								<label></label>
-								<textarea name="sop" maxlength="2000" class="form-control" rows="9" placeholder="Your statement of purpose here.." required></textarea>
-							</div>
-							<br>
-							<div class="col-md-4 col-md-offset-4" id="captcha">
-								<?php echo Recaptcha::render(["theme"=>"dark"]); ?>
-							</div>
-
-							<div class="col-md-4 col-md-offset-4">
-								<label></label>
-								<button type="button" id="submit" class="btn btn-primary btn-block btn-lg">Send</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</section>
+		</section> --}}
 		<section id="contacts">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
-						<h2 class="margin-top-0 text-primary">Contact</h2>
+						<h2 class="margin-top-0 text-primary">Contacts</h2>
 						<hr class="primary">
 					</div>
 				</div>
 			</div>
 			<div class="container">
 			
-			<style>
-				
-				@media screen and (min-width: 480px) {
-				
-					table.contact-table td{
-						padding: 5px;
-					}
-
-				}
-				@media screen and (max-width: 480px) {
-					
-					table.contact-table td{
-						padding: 2px;
-					}					
-
-					td.long-email{
-						color:#D9411E;
-						font-size: 0.75em;
-						/*display: none!important;*/
-					}
-					
-					td.email {
-
-						color:#D9411E;
-					}
-				}
-			</style>
-			
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
-						<div class="feature" style="width:100%;">
-							<i class="icon-lg ion-ios-book-outline wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"></i>
-							<h3>Students</h3>
-							<table class="contact-table">
-								<tr>
-									<td>Priyanka</td>
-									<td class="long-email">saipriyanka@pragyan.org</td>
-									<td>+91&nbsp;97913&nbsp;95753</td>
-								</tr>
-								<tr>
-									<td>Arjun</td>
-									<td class="email">arjunbala@pragyan.org</td>
-									<td>+91&nbsp;90031&nbsp;87061</td>
-								</tr>
-							</table>
+					<div class="">
+						<div class="feature text-center" >
+							<p>
+								<span> Bipul :  &nbsp; &nbsp;</span> 
+								<span class="text-primary">+91 &nbsp; 78708 &nbsp; 69523</span>
+							</p>
+							<p>
+								<span> Praveen :  &nbsp; &nbsp;</span> 
+								<span class="text-primary">+91 &nbsp; 88701 &nbsp; 81379</span>
+							</p>
+							<p>
+								<span> Laasya :  &nbsp; &nbsp;</span> 
+								<span class="text-primary">+91 &nbsp; 88384 &nbsp; 94253</span>
+							</p>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
-						<div class="feature" style="width:100%;">
-							<i class="icon-lg ion-briefcase wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;"></i>
-							<h3>Corporates</h3>
-							<table class="contact-table">
-								<tr>
-									<td>Shrimithran</td>
-									<td class="long-email">shrimithranr@pragyan.org</td>
-									<td>+91&nbsp;91766&nbsp;53503</td>
-								</tr>
-								<tr>
-									<td>Naman</td>
-									<td class="email">naman@pragyan.org</td>
-									<td>+91&nbsp;98845&nbsp;79108</td>
-								</tr>
-							</table>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 text-center">
+					{{-- <div class="col-lg-4 col-md-4 col-sm-12 text-center">
 						<div class="feature" style="width:100%;">
 							<i class="icon-lg ion-ios-paper-outline wow fadeIn" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;"></i>
 							<h3>Media</h3>
@@ -708,7 +296,7 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 								</tr>
 							</table>
 						</div>
-					</div>
+					</div> --}}
 				</div>
 			</div>
 		</section>
@@ -719,12 +307,12 @@ Let’s celebrate ideas. Let’s celebrate the youth. Let’s celebrate technolo
 						<h4>Follow</h4>
 						<ul class="list-inline">
 							<li><a rel="nofollow" href="https://twitter.com/nitt_pragyan" title="Twitter"><i class="icon-lg ion-social-twitter-outline" style="font-size:25px"></i></a>&nbsp;</li>
-							<li><a rel="nofollow" href="https://www.facebook.com/pragyan.nitt/" title="Facebook"><i class="icon-lg ion-social-facebook-outline" style="font-size:25px"></i></a>&nbsp;</li>
-							<li><a rel="nofollow" href="https://www.pragyan.org/blog/" title="Blog"><i class="icon-lg ion-social-rss-outline" style="font-size:25px"></i></a></li>
+							<li><a rel="nofollow" href="https://www.facebook.com/pragyan.nitt/" title="Facebook"><i class="icon-lg ion-social-instagram-outline" style="font-size:25px"></i></a>&nbsp;</li>
+							<li><a rel="nofollow" href="https://www.pragyan.org/blog/" title="Blog"><i class="icon-lg ion-social-facebook-outline" style="font-size:25px"></i></a></li>
 						</ul>
 					</div>
 					<div class="col-xs-12 col-sm-4 col-sm-offset-1 text-center">
-						<h4>Made with <i class="ion-heart"></i> by <a href="delta.nitt.edu">Delta Force</a> ©2016</h4>
+						<h4>Made with <i class="ion-heart"></i> by <a href="delta.nitt.edu">Delta Force</a></h4>
 					</div>
 				</div>
 			</div>
